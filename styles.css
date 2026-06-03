@@ -1,7 +1,23 @@
 @font-face {
   font-family: "Eagle Bold";
-  src: url("./fonts/Eagle-Bold.woff2") format("woff2"), url("./fonts/Eagle-Bold.woff") format("woff");
+  src: local("Eagle Bold"), local("Eagle-Bold"), url("./fonts/Eagle-Bold.woff") format("woff");
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gill Sans Ultra Bold";
+  src: local("Gill Sans Ultra Bold"), url("./fonts/Gill-Sans-Ultra-Bold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Han Sans SC Heavy";
+  src: local("Source Han Sans SC Heavy"), local("Source Han Sans SC"), url("./fonts/SourceHanSansSC-Heavy.otf") format("opentype");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -75,6 +91,7 @@ input[type="text"] {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.01em;
+  text-transform: uppercase;
 }
 
 input[type="text"]:focus {
